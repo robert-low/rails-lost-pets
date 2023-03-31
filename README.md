@@ -1,24 +1,32 @@
-# README
+# Lost Pets
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A rails app with one model, to rehearse the 7 CRUD actions:
 
-Things you may want to cover:
+1. As a user I can see all found pets
+2. As a user I can see details about one found pet (when and where it was found)
+3. As a user I can add a pet I found
+4. As a user I can update a pet
+5. As a user I can delete a pet
 
-* Ruby version
+## Ruby Version
 
-* System dependencies
+3.1.2
 
-* Configuration
+## Rails Version
 
-* Database creation
+7.0.4.3
 
-* Database initialization
+## Running the app locally
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Clone the repo
+   ```sh
+   git clone https://github.com/robert-low/rails-lost-pets.git
+   ```
+2. In your terminal run
+   ```sh
+   rails s
+   ```
+3. Go to
+   ```sh
+   http://localhost:3000/pets
+   ```
